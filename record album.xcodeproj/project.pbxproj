@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3205ACEE1B81E63C003EA7D2 /* empty_album.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3205ACED1B81E63C003EA7D2 /* empty_album.jpg */; };
+		3222126A1B7BC113000A5FC8 /* RecordCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322212691B7BC113000A5FC8 /* RecordCollectionViewController.m */; };
 		324DF1C71B7AFB4200C811FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324DF1C61B7AFB4200C811FD /* Foundation.framework */; };
 		324DF1C91B7AFB4200C811FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324DF1C81B7AFB4200C811FD /* CoreGraphics.framework */; };
 		324DF1CB1B7AFB4200C811FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324DF1CA1B7AFB4200C811FD /* UIKit.framework */; };
@@ -21,6 +23,15 @@
 		324DF1E81B7AFB4200C811FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324DF1CA1B7AFB4200C811FD /* UIKit.framework */; };
 		324DF1F01B7AFB4200C811FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 324DF1EE1B7AFB4200C811FD /* InfoPlist.strings */; };
 		324DF1F21B7AFB4200C811FD /* record_albumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 324DF1F11B7AFB4200C811FD /* record_albumTests.m */; };
+		32CD08531B7C110D00390460 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CD08521B7C110D00390460 /* libsqlite3.dylib */; };
+		32E2D6601B81193000AF0587 /* AddRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E2D65F1B81193000AF0587 /* AddRecordsViewController.m */; };
+		32EE6D161B86A98600EEFE88 /* music_background.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 32EE6D151B86A98600EEFE88 /* music_background.JPG */; };
+		32EE6D181B86A98E00EEFE88 /* bg_view.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 32EE6D171B86A98E00EEFE88 /* bg_view.JPG */; };
+		32EE6D1A1B86A99300EEFE88 /* add_bg.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 32EE6D191B86A99300EEFE88 /* add_bg.JPG */; };
+		32EF3CE21B8270B500DF4971 /* edit_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32EF3CE11B8270B500DF4971 /* edit_bg.jpg */; };
+		32F2F3B91B86546D0017534C /* RecordCollection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32F2F3B71B86546D0017534C /* RecordCollection.xcdatamodeld */; };
+		32F2F3BD1B865A880017534C /* RecordCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F2F3BC1B865A880017534C /* RecordCollection.m */; };
+		32F2F3BF1B8678CA0017534C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F2F3BE1B8678CA0017534C /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3205ACED1B81E63C003EA7D2 /* empty_album.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empty_album.jpg; sourceTree = "<group>"; };
+		322212681B7BC113000A5FC8 /* RecordCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordCollectionViewController.h; sourceTree = "<group>"; };
+		322212691B7BC113000A5FC8 /* RecordCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordCollectionViewController.m; sourceTree = "<group>"; };
 		324DF1C31B7AFB4200C811FD /* record album.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "record album.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		324DF1C61B7AFB4200C811FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		324DF1C81B7AFB4200C811FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +67,17 @@
 		324DF1ED1B7AFB4200C811FD /* record albumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "record albumTests-Info.plist"; sourceTree = "<group>"; };
 		324DF1EF1B7AFB4200C811FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		324DF1F11B7AFB4200C811FD /* record_albumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = record_albumTests.m; sourceTree = "<group>"; };
+		32CD08521B7C110D00390460 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		32E2D65E1B81193000AF0587 /* AddRecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRecordsViewController.h; sourceTree = "<group>"; };
+		32E2D65F1B81193000AF0587 /* AddRecordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRecordsViewController.m; sourceTree = "<group>"; };
+		32EE6D151B86A98600EEFE88 /* music_background.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = music_background.JPG; sourceTree = "<group>"; };
+		32EE6D171B86A98E00EEFE88 /* bg_view.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_view.JPG; sourceTree = "<group>"; };
+		32EE6D191B86A99300EEFE88 /* add_bg.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = add_bg.JPG; sourceTree = "<group>"; };
+		32EF3CE11B8270B500DF4971 /* edit_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = edit_bg.jpg; sourceTree = "<group>"; };
+		32F2F3B81B86546D0017534C /* RecordCollection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecordCollection.xcdatamodel; sourceTree = "<group>"; };
+		32F2F3BB1B865A880017534C /* RecordCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordCollection.h; sourceTree = "<group>"; };
+		32F2F3BC1B865A880017534C /* RecordCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordCollection.m; sourceTree = "<group>"; };
+		32F2F3BE1B8678CA0017534C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F2F3BF1B8678CA0017534C /* CoreData.framework in Frameworks */,
+				32CD08531B7C110D00390460 /* libsqlite3.dylib in Frameworks */,
 				324DF1C91B7AFB4200C811FD /* CoreGraphics.framework in Frameworks */,
 				324DF1CB1B7AFB4200C811FD /* UIKit.framework in Frameworks */,
 				324DF1C71B7AFB4200C811FD /* Foundation.framework in Frameworks */,
@@ -79,6 +106,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		322212711B7BD116000A5FC8 /* AlbumImages */ = {
+			isa = PBXGroup;
+			children = (
+				32EE6D191B86A99300EEFE88 /* add_bg.JPG */,
+				32EE6D171B86A98E00EEFE88 /* bg_view.JPG */,
+				32EE6D151B86A98600EEFE88 /* music_background.JPG */,
+				3205ACED1B81E63C003EA7D2 /* empty_album.jpg */,
+				32EF3CE11B8270B500DF4971 /* edit_bg.jpg */,
+			);
+			name = AlbumImages;
+			sourceTree = "<group>";
+		};
 		324DF1BA1B7AFB4200C811FD = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +140,8 @@
 		324DF1C51B7AFB4200C811FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				32F2F3BE1B8678CA0017534C /* CoreData.framework */,
+				32CD08521B7C110D00390460 /* libsqlite3.dylib */,
 				324DF1C61B7AFB4200C811FD /* Foundation.framework */,
 				324DF1C81B7AFB4200C811FD /* CoreGraphics.framework */,
 				324DF1CA1B7AFB4200C811FD /* UIKit.framework */,
@@ -112,6 +153,10 @@
 		324DF1CC1B7AFB4200C811FD /* record album */ = {
 			isa = PBXGroup;
 			children = (
+				32F2F3BA1B86547B0017534C /* Core Data */,
+				322212711B7BD116000A5FC8 /* AlbumImages */,
+				324DF1FC1B7AFB8300C811FD /* CoreClasses */,
+				324DF1FB1B7AFB7900C811FD /* UIClasses */,
 				324DF1D51B7AFB4200C811FD /* AppDelegate.h */,
 				324DF1D61B7AFB4200C811FD /* AppDelegate.m */,
 				324DF1D81B7AFB4200C811FD /* Main.storyboard */,
@@ -150,6 +195,35 @@
 				324DF1EE1B7AFB4200C811FD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		324DF1FB1B7AFB7900C811FD /* UIClasses */ = {
+			isa = PBXGroup;
+			children = (
+				322212681B7BC113000A5FC8 /* RecordCollectionViewController.h */,
+				322212691B7BC113000A5FC8 /* RecordCollectionViewController.m */,
+				32E2D65E1B81193000AF0587 /* AddRecordsViewController.h */,
+				32E2D65F1B81193000AF0587 /* AddRecordsViewController.m */,
+			);
+			name = UIClasses;
+			sourceTree = "<group>";
+		};
+		324DF1FC1B7AFB8300C811FD /* CoreClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreClasses;
+			sourceTree = "<group>";
+		};
+		32F2F3BA1B86547B0017534C /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				32F2F3B71B86546D0017534C /* RecordCollection.xcdatamodeld */,
+				32F2F3BB1B865A880017534C /* RecordCollection.h */,
+				32F2F3BC1B865A880017534C /* RecordCollection.m */,
+			);
+			name = "Core Data";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +302,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32EF3CE21B8270B500DF4971 /* edit_bg.jpg in Resources */,
+				32EE6D161B86A98600EEFE88 /* music_background.JPG in Resources */,
+				32EE6D1A1B86A99300EEFE88 /* add_bg.JPG in Resources */,
 				324DF1DF1B7AFB4200C811FD /* Images.xcassets in Resources */,
+				3205ACEE1B81E63C003EA7D2 /* empty_album.jpg in Resources */,
 				324DF1D11B7AFB4200C811FD /* InfoPlist.strings in Resources */,
 				324DF1DA1B7AFB4200C811FD /* Main.storyboard in Resources */,
+				32EE6D181B86A98E00EEFE88 /* bg_view.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +330,11 @@
 			files = (
 				324DF1DD1B7AFB4200C811FD /* ViewController.m in Sources */,
 				324DF1D71B7AFB4200C811FD /* AppDelegate.m in Sources */,
+				3222126A1B7BC113000A5FC8 /* RecordCollectionViewController.m in Sources */,
+				32F2F3B91B86546D0017534C /* RecordCollection.xcdatamodeld in Sources */,
 				324DF1D31B7AFB4200C811FD /* main.m in Sources */,
+				32F2F3BD1B865A880017534C /* RecordCollection.m in Sources */,
+				32E2D6601B81193000AF0587 /* AddRecordsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +539,7 @@
 				324DF1F71B7AFB4200C811FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		324DF1F81B7AFB4200C811FD /* Build configuration list for PBXNativeTarget "record albumTests" */ = {
 			isa = XCConfigurationList;
@@ -464,8 +548,22 @@
 				324DF1FA1B7AFB4200C811FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		32F2F3B71B86546D0017534C /* RecordCollection.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				32F2F3B81B86546D0017534C /* RecordCollection.xcdatamodel */,
+			);
+			currentVersion = 32F2F3B81B86546D0017534C /* RecordCollection.xcdatamodel */;
+			path = RecordCollection.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 324DF1BB1B7AFB4200C811FD /* Project object */;
 }
